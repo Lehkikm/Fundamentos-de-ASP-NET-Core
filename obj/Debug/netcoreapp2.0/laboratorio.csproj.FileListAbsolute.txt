@@ -1,0 +1,10 @@
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.deps.json
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.runtimeconfig.json
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.runtimeconfig.dev.json
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.dll
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.pdb
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.csproj.CoreCompileInputs.cache
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.AssemblyInfoInputs.cache
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.AssemblyInfo.cs
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.dll
+F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.pdb

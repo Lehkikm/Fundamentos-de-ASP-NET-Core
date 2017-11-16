@@ -1,0 +1,15 @@
+@model laboratorio.Models.Restaurante
+
+<h1>@Model.Nombre</h1>
+
+<div>
+    <div>
+        Id: @Model.Id
+    </div>
+</div>
+    <div>
+        Cocina: @Model.Cocina
+    </div>
+<br/>
+
+<a asp-action="Index" asp-controller="Home">Home</a>
