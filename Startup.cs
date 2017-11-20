@@ -55,7 +55,7 @@ namespace laboratorio
                 // throw new Exception("Excepcion");
                 string saludo = miSaludo.GetMensajeDelDia();
                 context.Response.ContentType = "text/plain"; // De esta manera, el navegador interpreta el texto que escriba como texto que puede interpretar.
-                await context.Response.WriteAsync($"Hola espacio");
+                await context.Response.WriteAsync($"Si estás viendo este mensaje es porque estás en el middleware incorrecto. Lo siento : -/");
             });
         }
         

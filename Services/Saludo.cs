@@ -2,21 +2,17 @@ using Microsoft.Extensions.Configuration;
 
 namespace laboratorio.Services
 {
-    public interface ISaludo
-    {
-        string GetMensajeDelDia();
-    }
-
     public class Saludo : ISaludo
     {
         private IConfiguration _configuracion;
-        
+
         public Saludo(IConfiguration configuracion)
         {
             _configuracion = configuracion;
         }
-        
-        public string GetMensajeDelDia(){
+
+        public string GetMensajeDelDia()
+        {
             return _configuracion["Saludo"];
         }
     }
