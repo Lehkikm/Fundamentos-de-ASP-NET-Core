@@ -1,17 +1,23 @@
-@using laboratorio.Models
-@model Restaurante
+@model Restaurante;
 
-<h1>CREA TU PROPIO RESTAURANTE</h1>
+@{
+    ViewBag.Title = "Agregar restaurante";
+}
 
+<h1>Consorcio de restaurantes</h1>
+<h2>Agregar restaurante</h2>
+
+<br/>
+<br/>
 <form method="post">
     <!-- RECUERDA: El atributo asp-for hace referencia a los atributos del modelo importado -->
     
-    <div>
+    <div class="form-group">
         <label asp-for="Nombre"></label>
         <input asp-for="Nombre"/>
         <span asp-validation-for="Nombre"></span>
     </div>
-    <div>
+    <div class="form-group">
         <label asp-for="Cocina"></label>
         <select asp-for="Cocina" asp-items="@Html.GetEnumSelectList<TipoCocina>()"> </select>
         <span asp-validation-for="Cocina"></span>
@@ -19,6 +25,6 @@
     <!-- Manera hardcode: <input type="text" name="Nombre"> -->
     <!-- Al dar submit, las propiedades son pasadas al controlador y esta ejecuta el método correspondiente (El método correspondiente es aquel que tiene el mismo nombre que la vista y cumple con las restricciones impuestas en el "data annotations". En este caso, como hasz indicado el uso del método post, se va a ejecutar el método que cumple con esa restricción.) -->
     
-    <input type="submit" name="guardar" value="Guardar"/>
+    <input class="input-submit btn-verde" type="submit" name="guardar" value="Guardar" style="margin-left: 90px;"/>
     
 </form>

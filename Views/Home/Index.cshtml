@@ -1,40 +1,39 @@
-<!--Importando los modelos del controlador-->
-@model laboratorio.ViewModels.HomeIndexViewModel
-
 @{
     ViewBag.Title = "Página de inicio";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="Contenedor">
-        <h1>LISTA DE RESTAURANTES</h1>
 
-    <table border="1" width="80%" cellspacing=0 cellpadding=10 bordercolor="c4c4c4" frame="void" rules="rows" align>
-        <colgroup span="4"></colgroup>
+<h1>Consorcio de restaurantes</h1>
+<h2>Listado de restaurantes</h2>
+
+<br/> 
+<br/>
+<table border="1" width="80%" cellspacing=0 cellpadding=10 bordercolor="c4c4c4" frame="void" rules="rows" align>
+    <colgroup span="4"></colgroup>
+    <tr>
+        <th>ID</th>
+        <th aling="left">Nombre</th>
+    </tr>
+    @foreach(var restaurante in Model.Restaurantes)
+    {
         <tr>
-            <th>ID</th>
-            <th aling="left">Nombre</th>
+            <td class="Propiedad">@restaurante.Id</td>
+            <td class="Propiedad">@restaurante.Nombre</td>
+            <td class="Propiedad">
+                <a asp-action="Detalles" asp-route-id="@restaurante.Id">Detalles</a> &nbsp; &nbsp;
+
+                <!-- MANERA MAS HARCODE DE HACER LO MISMO -->
+                <!-- @Html.ActionLink("Home", "Detalles", new{ id=restaurante })
+                <a href="/home/detalles/@restaurante.Id">Detalles</a> -->
+            </td>
         </tr>
-        @foreach(var restaurante in Model.Restaurantes)
-        {
-            <tr>
-                <td class="Propiedad">@restaurante.Id</td>
-                <td class="Propiedad">@restaurante.Nombre</td>
-                <td class="Propiedad">
-                    <a asp-action="Detalles" asp-route-id="@restaurante.Id">Detalles</a>
+    }
+</table>
 
-                    <!-- MANERA MAS HARCODE DE HACER LO MISMO -->
-                    <!-- @Html.ActionLink("Home", "Detalles", new{ id=restaurante })
-                    <a href="/home/detalles/@restaurante.Id">Detalles</a> -->
-                </td>
-            </tr>
-        }
-    </table>
+<br/ >
 
-    <br/ >
+<button><a asp-action="Crear" style="color:#c4c4c4;">Agregar </a></button>
 
-    <button><a asp-action="Crear" style="color: #c4c4c4;">Agregar </a></button>
-</div>
 
 @section footer {
     @Model.MensajeActual
