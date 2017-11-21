@@ -9,5 +9,6 @@ namespace laboratorio.Services
         IEnumerable<Restaurante> GetRestaurantes();
         Restaurante Get(int id);
         Restaurante Add(Restaurante restaurante); 
+        Restaurante Update(Restaurante restaurante);
     }
 }

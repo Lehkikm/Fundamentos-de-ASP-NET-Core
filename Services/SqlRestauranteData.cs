@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using laboratorio.Data;
 using laboratorio.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace laboratorio.Services
 {
@@ -33,5 +34,11 @@ namespace laboratorio.Services
             return _contexto.Restaurantes.OrderBy(r => r.Nombre);
         }
 
+        public Restaurante Update(Restaurante restaurante)
+        {
+            _contexto.Attach(restaurante).State = EntityState.Modified;
+            _contexto.SaveChanges();
+            return restaurante;
+        }
     }
 }

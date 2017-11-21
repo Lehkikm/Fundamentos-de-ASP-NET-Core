@@ -21,6 +21,7 @@
             <td class="Propiedad">@restaurante.Nombre</td>
             <td class="Propiedad">
                 <a asp-action="Detalles" asp-route-id="@restaurante.Id">Detalles</a> &nbsp; &nbsp;
+                <a asp-page="/Restaurantes/Editar" asp-route-id="@restaurante.Id" class="anaranjado">Editar</a>
 
                 <!-- MANERA MAS HARCODE DE HACER LO MISMO -->
                 <!-- @Html.ActionLink("Home", "Detalles", new{ id=restaurante })
