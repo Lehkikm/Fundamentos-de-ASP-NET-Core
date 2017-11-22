@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Desktop\\laboratorio\\laboratorio.csproj",
+      "projectUniqueName": "f:\\Documentos\\MisDocumentos\\Programing_and_Design\\ASP .NET\\Cursos\\Pluralsight\\1_Inicios\\laboratorio\\laboratorio.csproj",
       "projectName": "laboratorio",
-      "projectPath": "f:\\Desktop\\laboratorio\\laboratorio.csproj",
+      "projectPath": "f:\\Documentos\\MisDocumentos\\Programing_and_Design\\ASP .NET\\Cursos\\Pluralsight\\1_Inicios\\laboratorio\\laboratorio.csproj",
       "packagesPath": "C:\\Users\\Mikhael\\.nuget\\packages\\",
-      "outputPath": "f:\\Desktop\\laboratorio\\obj\\",
+      "outputPath": "f:\\Documentos\\MisDocumentos\\Programing_and_Design\\ASP .NET\\Cursos\\Pluralsight\\1_Inicios\\laboratorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
