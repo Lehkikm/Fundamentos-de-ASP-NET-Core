@@ -8,6 +8,7 @@ F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_
 F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.AssemblyInfo.cs
 F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.dll
 F:\Documentos\MisDocumentos\Programing_and_Design\ASP .NET\Cursos\Pluralsight\1_Inicios\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.pdb
+<<<<<<< HEAD
 f:\Desktop\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.deps.json
 f:\Desktop\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.runtimeconfig.json
 f:\Desktop\laboratorio\bin\Debug\netcoreapp2.0\laboratorio.runtimeconfig.dev.json
@@ -18,3 +19,5 @@ f:\Desktop\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.AssemblyInfoInputs.ca
 f:\Desktop\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.AssemblyInfo.cs
 f:\Desktop\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.dll
 f:\Desktop\laboratorio\obj\Debug\netcoreapp2.0\laboratorio.pdb
+=======
+>>>>>>> a3f04eb7db60da9cb90e651e5f81ee4c6cf7016c
